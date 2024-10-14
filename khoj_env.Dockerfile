@@ -1,7 +1,7 @@
-FROM cuda
+FROM khoj_base
 
 # ENV POSTGRES_USER=postgres
 ENV POSTGRES_PASSWORD=mypassword
 # ENV POSTGRES_DB=khoj
-ENV POSTGRES_HOST=postgres
+ENV POSTGRES_HOST=khoj_postgres_db
 # ENV POSTGRES_PORT=5432
